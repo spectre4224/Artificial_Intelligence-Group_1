@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Chatbot</title>
+</head>
+<body>
+    <h1>Chatbot</h1>
+    <div id="chat-container">
+        <div class="user-message">User's message</div>
+        <div class="bot-message">Bot's response</div>
+    </div>
+    <form action="/chat" method="post">
+        <input type="text" name="user_message" id="user_message" placeholder="Type a message..." autocomplete="off">
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
